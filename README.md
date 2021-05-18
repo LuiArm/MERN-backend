@@ -21,7 +21,7 @@ MERN app with Express on the back-end and React on the front-end.
 
 Unlike most labs, for this one you will submit your work by **making a pull request**. If a pull request has not been performed up until now then the instructor will walk the class through performing one at the completion of this readme.
 
-This repo should be used as the backed server. 
+Edit the links.md file with your project links before you do a pull request, also include the links in the pull request notes.
 
 Create another repo for the Frontend and add a link to that repo when you make the Pull request. 
 
@@ -30,10 +30,20 @@ Create another repo for the Frontend and add a link to that repo when you make t
 Here are the requirment:
 
 - Build a simple MERN - Mongo-Express-React-Node App
-- Must contain related models (Owner/Fruits or Owner/Dogs)
+- Must contain at least one model with full CRUD (If Want a Challenge, do a second related model, like "All Pets have one Owner" or "All Restaurants have Many Customers"
 - React on the front end must include `React Router`
 - Node on the backend must be configured as a `RESTFull` API
-- Both servers much be deployed
+- Frontend and Backend must be deployed
+
+**Resources on Deployment**
+- [Express & React Deployment](https://git.generalassemb.ly/SEIR-329/ExpressFrontendDeploy/blob/master/deploy.md)
+- [Blog: Deploying Node Apps to Heroku](https://tuts.alexmercedcoder.com/2021/4/deploying_node_heroku/)
+- [Blog: Deploying Frontend Apps to Netlify/Vercel](https://tuts.alexmercedcoder.com/2021/1/deployreact/)
+
+**Resoures on Mongo Relationships**
+- [VIDEO: Mongo Relationships using ObjectID and Populate](https://www.youtube.com/watch?v=cu6VQgT3EEI)
+- [VIDEO: Mongo Relationships using Embedded Relationships](https://www.youtube.com/watch?v=YDLjahSfZ10)
+- [VIDEO: Many to Many Relationship using a Joint Collection](https://www.youtube.com/watch?v=GfMk5DQcuqQ)
 
 ### Backend
 Your app should have a back-end build with Express that persists data to a
@@ -45,8 +55,7 @@ Backend server must be deployed via Heroku.
 Backend must be configued for CORS.
 
 ### Frontend
-The front-end for your simple MERN app should be built with React. Instead of using `fetch` you will now use `axios` to
-get data from your Express back-end.
+The front-end for your simple MERN app should be built with React. You may use fetch or Axios to make your frontend API Calls.
 
 Use React Router to build out separate 'views' for creating, editing, updating and deleting instances of your model.
 
