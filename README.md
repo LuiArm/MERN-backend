@@ -66,7 +66,14 @@ Frontend server must be deployed via Netlify.
 ## Bonus
 
 - Style it and make Kenny proud!!!
+  - Use Sass OR
+  - Use Styled Components (Watch Bonus Lesson in Class Wiki Pinned to Classroom Channel) OR
+  - Use ReactStrap/Bootstrap React 
+  
 - Add `useContext` to create a global state
+
 - Add a third model as a sub-document. Finish full CRUD on your first two models before
 adding any additional subdocuments. 
+
+- Add JWT Authentication - [Playlist that Includes how to build JWT Auth with Express & React](https://www.youtube.com/playlist?list=PLY6oTPmKnKbZsBHeBGNL9suAPIJdLaVk9)
 
